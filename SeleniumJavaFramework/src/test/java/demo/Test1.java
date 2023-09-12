@@ -17,7 +17,7 @@ public class Test1 {
 
 	@BeforeClass(alwaysRun = true)
 	public void setUp() throws Exception {
-
+// Adding comment
 		String projectPath = System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver", projectPath+"/drivers/chromedriver/chromedriver.exe");
 		driver = new ChromeDriver();
