@@ -14,7 +14,7 @@ public class Test1 {
 	private String baseUrl;
 	private boolean acceptNextAlert = true;
 	private StringBuffer verificationErrors = new StringBuffer();
-
+// This commit is from develop
 	@BeforeClass(alwaysRun = true)
 	public void setUp() throws Exception {
 
